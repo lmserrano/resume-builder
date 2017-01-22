@@ -1,0 +1,14 @@
+// Jobs List
+[
+  // Job
+  {
+    "resume_path": "path/to/resume.json",
+    "theme_js_path": "path/to/theme/folder",
+    "filters": [ "path/to/filter1.json", "path/to/filter2.json" ],
+    "output_folder": "path/output/folder",
+    // Optional
+    "output_filename": "my_exported_resume.html"
+  }
+  //,
+  //...
+]
