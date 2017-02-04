@@ -20,16 +20,17 @@ var gulp = require("gulp");
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 var buffer = require('vinyl-buffer');
-var paths = {
-    pages: ['src/*.html']
-};
+// var paths = {
+//     pages: ['src/*.html']
+// };
+//
+// gulp.task("copy-html", function () {
+//     return gulp.src(paths.pages)
+//         .pipe(gulp.dest("dist"));
+// });
 
-gulp.task("copy-html", function () {
-    return gulp.src(paths.pages)
-        .pipe(gulp.dest("dist"));
-});
-
-gulp.task("default", ["copy-html"], function () {
+// gulp.task("default", ["copy-html"], function () {
+gulp.task("default", [], function () {
     return tsProject.src()
 //        .plugin(tsify)
 //        .bundle()
