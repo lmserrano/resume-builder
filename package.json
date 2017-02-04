@@ -4,7 +4,7 @@
   "description": "A set of tools for building and exporting a Resume in a JSON-Resume-compatible format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha test test/*.js"
   },
   "keywords": [
     "resume",
@@ -25,5 +25,8 @@
     "json-merge-patch": "^0.2.3",
     "strip-json-comments": "^2.0.1",
     "synchronous-user-input": "0.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }

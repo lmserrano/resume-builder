@@ -1,0 +1,10 @@
+[
+  {
+    "resume_path": "./resume.json",
+    "theme_js_path": "F:/workspaces/ResumeBuilding/Resume/jsonresume-theme-elegant/index.js",
+    "filters": [ "./filter_no_profiles.json",
+      "./filter_a_summary.json"],
+    "output_folder": "../temp_tests",
+    "output_filename": "resume.html"
+  }
+]
