@@ -4,7 +4,7 @@
  */
 
 // Dependencies
-const pkg = require('./package.json');
+const pkg = require('./../../package.json');
 
 // Edit here
 const TEMP_FOLDER_FOR_GENERATION = "TEMP_FOLDER";

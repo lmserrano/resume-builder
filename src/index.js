@@ -8,7 +8,7 @@
  */
 
 // Dependencies
-const config = require('./config');
+const config = require('./config/config');
 const program = require('commander');
 
 var chalk = require('chalk');

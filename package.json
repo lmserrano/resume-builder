@@ -1,8 +1,8 @@
 {
   "name": "resume-builder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A set of tools for building and exporting a Resume in a JSON-Resume-compatible format",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "resume-builder": "./index.js"
+    "resume-builder": "./dist/index.js"
   },
   "author": "Luis Miguel Serrano",
   "license": "MIT",
@@ -25,5 +25,15 @@
     "json-merge-patch": "^0.2.3",
     "strip-json-comments": "^2.0.1",
     "synchronous-user-input": "0.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-typescript": "^3.1.4",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "typescript": "^2.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "watchify": "^3.9.0"
   }
 }

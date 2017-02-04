@@ -6,7 +6,7 @@
  * Created by LuisMiguelSerrano on 20/01/2017.
  */
 
-const config = require('../config');
+const config = require('../config/config');
 
 var fs = require('fs');
 
