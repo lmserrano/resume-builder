@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./built",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
     "allowJs": true,
     "target": "es5"
   },
   "include": [
-    "./src/lib/**/*",
     "./src/**/*"
   ]
 }
