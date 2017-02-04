@@ -1,3 +1,5 @@
+[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![MIT License][license-image]][license-url]
+
 # resume-builder
 
 Resume Builder (resume-builder) is a node.js cli tool for running configurable resume-building tasks.
@@ -62,3 +64,11 @@ resume-builder -r path/to/resume.json -o path/to/output.html -t path/to/theme/in
 ## License
 
 MIT © [Luis Miguel Serrano](https://github.com/lmserrano)
+
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+[npm-url]: https://npmjs.org/package/resume-builder
+[npm-version-image]: https://img.shields.io/npm/v/resume-builder.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/resume-builder.svg?style=flat
