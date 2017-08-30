@@ -20,7 +20,10 @@ With this tool, it is possible to easily have a single json resume file, and som
 
 ## Usage
 
-Install by running: `npm install -g resume-builder`
+Install in one of the following two ways:
+
+- Install from NPM repository by running: `npm install -g resume-builder`
+- Install by cloning the project and running: `npm install -g /path/to/cloned/project`
 
 For a list of the available options and commands run: `resume-builder --help`
 
@@ -34,7 +37,7 @@ resume-builder -j src/config/jobs.json
 
 The file describing the jobs should be in the format specified in `jobs.json.template`
 
-```json
+```javascript
 // Jobs List
 [
   // Job
