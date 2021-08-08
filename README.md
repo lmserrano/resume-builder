@@ -60,6 +60,10 @@ Run as follows:
 resume-builder -r path/to/resume.json -o path/to/output.html -t path/to/theme/index.js
 ```
 
+## Versions
+
+- [Node.js 7.10.1](https://nodejs.org/download/release/v7.10.1/)
+
 ## Related
 
 - [JSONResume GitHub Page](https://github.com/jsonresume) - JSON Resume projects
